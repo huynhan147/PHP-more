@@ -45,4 +45,8 @@
 - I -SP: Nguyên tắc phân đoạn giao diện : Thay vì dùng 1 interface lớn, ta nên tách thành nhiều interface nhỏ, với nhiều mục đích cụ thể
 - D -IP: Nguyên tắc đảo ngược phụ thuộc : Các module cấp cao không nên phụ thuộc vào module cấp thấp. cả 2 nên phụ thuộc vào abstraction
 
-
+# **Design Patterns - PHP**
+Có 23 mẫu được chia làm 3 loại : 
+- Creational Patterns (Các mẫu tạo lập) : Được sử dụng để tạo các đối tượng sao cho chúng có thể tách khỏi hệ thống triển khai của chúng
+- Structural Patterns(Mẫu cấu trúc) : Để tạo cấu trúc các đối tượng lớn giữa nhiều đối tượng khác nhau
+- Behavioral Patterns(Mẫu ứng xử) : Được sử dụng để quản lý các thuật toán mối quan hệ và trách nhiệm giữa các đối tượng
