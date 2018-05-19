@@ -14,29 +14,29 @@
  - Xóa những code không cần thiết
 # **Các chuẩn PSR trong php**
 - *PSR-1: Chuẩn viết code cơ bản* : 
- - Trong file cần sử dụng thẻ <?php ?> hoặc <?= ?>
- - Kiểu mã hóa code sử dụng UTF-8
- - Namespace và class cần theo chuẩn "autoload" PSR
- - Biến constant cần được khai báo bằng chữ in hoa và cách nhau bởi dấu `_`
- - Phương thức cần được khai báo theo kiểu cameCase (nameFunction)
+  - Trong file cần sử dụng thẻ <?php ?> hoặc <?= ?>
+  - Kiểu mã hóa code sử dụng UTF-8
+  - Namespace và class cần theo chuẩn "autoload" PSR
+  - Biến constant cần được khai báo bằng chữ in hoa và cách nhau bởi dấu `_`
+  - Phương thức cần được khai báo theo kiểu cameCase (nameFunction)
 - *PSR-2 : Tiêu chuẩn trình bày code*
- - Phải tuân  thủ PSR-1
- - Sử dụng 4 ký tự space để lùi khối()
- - Mỗi dòng code dưới 120 ký tự , nên dưới 80 ký tự
- - Phải có dòng trắng sau namespace và dòng trắng sau mỗi khối code
- - Ký tự `{` và `}` phải ở một dòng riêng đối với class và function
- - Phải có khoảng trắng sau `if,elseif else`
- - Hằng số `true,false,null` phải viết thường
- - Từ khóa `extends` và `implements` phải cùng dùng với `class`
+  - Phải tuân  thủ PSR-1
+  - Sử dụng 4 ký tự space để lùi khối()
+  - Mỗi dòng code dưới 120 ký tự , nên dưới 80 ký tự
+  - Phải có dòng trắng sau namespace và dòng trắng sau mỗi khối code
+  - Ký tự `{` và `}` phải ở một dòng riêng đối với class và function
+  - Phải có khoảng trắng sau `if,elseif else`
+  - Hằng số `true,false,null` phải viết thường
+  - Từ khóa `extends` và `implements` phải cùng dùng với `class`
 - *PSR-3 : Giao diện logger*
- - Mọi method chỉ chấp nhận 1 string tin nhắn
- - Tên placeholders phải phù hợp với key log
- - Tên placeholders phải được phân cách bằng dấu ngoặc nhọn `{` và dấu `}`
- - Không được chứa bất kỳ khoảng trắng giữa các ký tự tên placeholders
+  - Mọi method chỉ chấp nhận 1 string tin nhắn
+  - Tên placeholders phải phù hợp với key log
+  - Tên placeholders phải được phân cách bằng dấu ngoặc nhọn `{` và dấu `}`
+  - Không được chứa bất kỳ khoảng trắng giữa các ký tự tên placeholders
 - *PSR-4 :Tiêu chuẩn về tự động nạp*
- - Namespace đầy đủ phải có 1 namespace gốc
- - Phải có một hoặc nhiều namespace con
- - Phải có một tên lớp kết thúc (Classname)
+  - Namespace đầy đủ phải có 1 namespace gốc
+  - Phải có một hoặc nhiều namespace con
+  - Phải có một tên lớp kết thúc (Classname)
 `\<NamespaceName>\<SubNamespaceNames>\<ClassName>`
 # **Nguyên tắc SOLID** :
 - S -RP: Nguyên tắc chịu trách nhiệm duy nhất : Một class nên giữ một trách nhiệm duy nhất
