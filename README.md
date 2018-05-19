@@ -1,17 +1,17 @@
 # **Clean code PHP**
 - *Biến* :
- - Sử dụng tên biến có ý nghĩa và dễ hiểu : `ví dụ : $name thay vì $n`
- - Đặt tên sao cho dễ tìm kiếm
- - Sử dụng các biến có tính giải thích rằng biến đó lưu giá trị về cái gì
- - Tránh lồng điều kiện quá nhiều và nên return sớm
- - Sử dụng đối số mặc định thay vì phải kiểm tra bằng biểu thức điều kiện
+  - Sử dụng tên biến có ý nghĩa và dễ hiểu : `ví dụ : $name thay vì $n`
+  - Đặt tên sao cho dễ tìm kiếm
+  - Sử dụng các biến có tính giải thích rằng biến đó lưu giá trị về cái gì
+  - Tránh lồng điều kiện quá nhiều và nên return sớm
+  - Sử dụng đối số mặc định thay vì phải kiểm tra bằng biểu thức điều kiện
 - *Hàm* :
- - Đối số của hàm nên ít hơn hoặc bằng 2
- - Hàm chỉ nên thực hiện một chức năng
- - Tên hàm nên thể hiện chức năng của nó 
- - Không nên sử dụng cờ như là một đối số truyền vào hàm
- - Tránh dùng điều kiện phủ định
- - Xóa những code không cần thiết
+  - Đối số của hàm nên ít hơn hoặc bằng 2
+  - Hàm chỉ nên thực hiện một chức năng
+  - Tên hàm nên thể hiện chức năng của nó 
+  - Không nên sử dụng cờ như là một đối số truyền vào hàm
+  - Tránh dùng điều kiện phủ định
+  - Xóa những code không cần thiết
 # **Các chuẩn PSR trong php**
 - *PSR-1: Chuẩn viết code cơ bản* : 
   - Trong file cần sử dụng thẻ <?php ?> hoặc <?= ?>
